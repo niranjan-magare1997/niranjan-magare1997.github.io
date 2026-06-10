@@ -1,0 +1,16 @@
+export default function Footer() {
+  return (
+    <footer
+      className="
+        border-t
+        border-slate-800
+        py-8
+        text-white
+        text-center
+        text-slate-500
+      "
+    >
+      © {new Date().getFullYear()} Niranjan Magare
+    </footer>
+  );
+}
