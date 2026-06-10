@@ -1,75 +1,124 @@
-# React + TypeScript + Vite
+# 🚀 Niranjan Magare - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern developer portfolio built with React, TypeScript, Vite, and Tailwind CSS, showcasing my professional experience, technical skills, projects, certifications, and contact information.
 
-Currently, two official plugins are available:
+## 🌐 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Portfolio:** https://niranjan-magare1997.github.io
 
-## React Compiler
+## 👨‍💻 About Me
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Senior Backend Engineer with 6+ years of experience designing and developing scalable distributed systems, microservices architectures, GraphQL APIs, and cloud-native applications.
 
-Note: This will impact Vite dev & build performances.
+### Core Expertise
 
-## Expanding the ESLint configuration
+* NestJS
+* TypeScript
+* GraphQL & Apollo Federation
+* PostgreSQL
+* Redis
+* Docker
+* AWS
+* Google Cloud Platform (GCP)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Frontend
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+
+### Development Tools
+
+* Git
+* GitHub
+* GitHub Actions
+* npm
+
+### Deployment
+
+* GitHub Pages
+* GitHub Actions CI/CD
+
+---
+
+## ✨ Features
+
+* Responsive portfolio design
+* Professional experience timeline
+* Technical skills showcase
+* Featured projects section
+* Resume download
+* Contact information
+* Automated deployment with GitHub Actions
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── Metrics.tsx
+│   ├── About.tsx
+│   ├── Skills.tsx
+│   ├── Experience.tsx
+│   ├── Projects.tsx
+│   ├── Certifications.tsx
+│   ├── Contact.tsx
+│   └── Footer.tsx
+│
+├── App.tsx
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Running Locally
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Clone the repository:
+
+```bash
+git clone https://github.com/niranjan-magare1997/niranjan-magare1997.github.io.git
 ```
+
+Navigate to the project:
+
+```bash
+cd niranjan-magare1997.github.io
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 📫 Connect With Me
+
+* LinkedIn: https://linkedin.com/in/niranjanmagare
+* GitHub: https://github.com/niranjan-magare1997
+
+---
+
+⭐ If you like this project, feel free to explore the code and connect with me.
