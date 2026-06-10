@@ -25,7 +25,7 @@ export default function Contact() {
         platform engineering and cloud-native opportunities.
       </p>
 
-      <div className="flex justify-center gap-6 text-3xl">
+      <div className="flex justify-center gap-6 text-3xl text-white">
         <a
           href="mailto:niranjan.magare@gmail.com"
         >
@@ -33,19 +33,17 @@ export default function Contact() {
         </a>
 
         <a
-          href="https://github.com/niranjan-magare1997"
-          target="_blank"
-        >
-          <FaGithub />
-        </a>
-
-        <a
           href="https://linkedin.com/in/niranjanmagare"
           target="_blank"
+          className="text-white"
         >
           <FaLinkedin />
         </a>
       </div>
+      <br/>
+      <p className="text-blue-400 font-medium mb-10 text-2xl">
+        niranjan.magare@gmail.com
+      </p>
     </section>
   );
 }

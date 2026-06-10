@@ -70,6 +70,7 @@ export default function Hero() {
               hover:bg-slate-700
               rounded-lg
               transition
+              text-white
             "
           >
           <FaDownload />
