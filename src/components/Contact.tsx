@@ -1,5 +1,4 @@
 import {
-  FaGithub,
   FaLinkedin,
   FaEnvelope,
 } from "react-icons/fa";
