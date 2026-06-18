@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
+import { FaLinkedin, FaDownload } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -14,7 +14,7 @@ export default function Hero() {
         </h1>
 
         <h2 className="text-2xl md:text-3xl text-slate-300 mb-6">
-          Senior Backend Engineer | 6+ Years Experience
+          Senior Backend Engineer | 6.5+ Years Experience
         </h2>
 
         <p className="text-lg text-slate-400 leading-8 max-w-3xl mx-auto">
@@ -42,15 +42,6 @@ export default function Hero() {
         </div>
 
         <div className="flex justify-center gap-4 mt-10">
-          <a
-            href="https://github.com/niranjan-magare1997"
-            target="_blank"
-            className="flex items-center gap-2 px-5 py-3 bg-blue-600 rounded-lg"
-          >
-            <FaGithub />
-            GitHub
-          </a>
-
           <a
             href="https://linkedin.com/in/niranjanmagare"
             target="_blank"

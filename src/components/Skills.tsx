@@ -34,7 +34,6 @@ const skillCategories = [
     title: "Cloud & DevOps",
     skills: [
       "Docker",
-      "AWS",
       "Google Cloud",
       "CI/CD",
       "GitHub Actions",
@@ -67,7 +66,7 @@ export default function Skills() {
             key={category.title}
             className="bg-slate-900 p-6 rounded-xl"
           >
-            <h3 className="text-xl font-semibold text-blue-400 mb-4">
+            <h3 className="text-2xl font-semibold text-blue-400 mb-4">
               {category.title}
             </h3>
 
@@ -75,7 +74,7 @@ export default function Skills() {
               {category.skills.map((skill) => (
                 <span
                   key={skill}
-                  className="bg-slate-800 px-3 py-2 rounded-full"
+                  className="bg-slate-800 px-3 py-2 text-white rounded-full"
                 >
                   {skill}
                 </span>

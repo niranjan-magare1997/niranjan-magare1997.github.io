@@ -41,6 +41,12 @@ export default function Navbar() {
           </li>
 
           <li>
+            <a href="#achievements" className="hover:text-blue-400 transition">
+              Achievements
+            </a>
+          </li>
+
+          <li>
             <a href="#experience" className="hover:text-blue-400 transition">
               Experience
             </a>

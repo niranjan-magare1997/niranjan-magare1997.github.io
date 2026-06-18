@@ -10,7 +10,7 @@ export default function About() {
 
       <div className="space-y-6 text-slate-300 text-lg leading-8">
         <p>
-          I'm a Senior Backend Engineer with 6+ years of experience
+          I'm a Senior Backend Engineer with 6.5+ years of experience
           designing scalable distributed systems, microservices
           architectures and cloud-native applications.
         </p>

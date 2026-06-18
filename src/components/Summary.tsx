@@ -7,7 +7,7 @@ export default function Summary() {
 
       <div className="bg-slate-900 rounded-xl p-8">
         <p className="text-slate-300 text-lg leading-8">
-          Senior Backend Engineer with 6+ years of experience
+          Senior Backend Engineer with 6.5+ years of experience
           building scalable distributed systems, GraphQL APIs,
           microservices architectures and cloud-native platforms.
           Experienced in designing enterprise applications using

@@ -1,7 +1,7 @@
 const experiences = [
   {
     company: "Globant",
-    role: "Software Engineer",
+    role: "Senior Software Engineer",
     duration: "May 2024 - Present",
     achievements: [
       "Engineered multi-tenant ticketing platform supporting multiple entertainment brands.",
@@ -13,7 +13,7 @@ const experiences = [
   },
   {
     company: "Birbal AI Tech (CronJ)",
-    role: "Software Engineer",
+    role: "Software Engineer (SDE3)",
     duration: "Nov 2023 - May 2024",
     achievements: [
       "Led backend development for Tejas Reporting Tool.",
@@ -23,7 +23,7 @@ const experiences = [
   },
   {
     company: "Network Components Pvt Ltd",
-    role: "Software Engineer",
+    role: "Junior Software Engineer",
     duration: "Dec 2019 - Oct 2023",
     achievements: [
       "Architected centralized IoT platform managing smart devices.",
