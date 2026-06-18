@@ -52,7 +52,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="/Niranjan_Magare_Resume.pdf"
+            href="/Niranjan_SDE_CV_LATEST.pdf"
             target="_blank"
             className="
               flex items-center gap-2
