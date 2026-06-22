@@ -7,13 +7,16 @@ export default function Summary() {
 
       <div className="bg-slate-900 rounded-xl p-8">
         <p className="text-slate-300 text-lg leading-8">
-          Senior Backend Engineer with 6.5+ years of experience
-          building scalable distributed systems, GraphQL APIs,
-          microservices architectures and cloud-native platforms.
-          Experienced in designing enterprise applications using
-          NestJS, TypeScript, PostgreSQL, Redis and Docker,
-          with a strong focus on performance optimization,
-          reliability and maintainability.
+          Senior Software Engineer with 6.5+ years of experience
+          building distributed, high-performance systems using Node.js,
+          NestJS, TypeScript, GraphQL, Apollo Federation, and Microservices.
+          Improved API performance by 35–50% through Redis caching, federated
+          GraphQL optimization, and AWS-powered scalable architectures. Built
+          AI-powered solutions using Ollama, RAG, vector embeddings, and LLM
+          integrations. Experienced in enterprise-scale platforms across
+          Ticketing, SaaS, IoT, and Home Automation domains. Proven expertise
+          in AWS services (S3, EC2, Lambda, API Gateway), mentoring engineers,
+          and driving architectural decisions.
         </p>
       </div>
     </section>

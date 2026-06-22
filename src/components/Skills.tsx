@@ -10,6 +10,7 @@ const skillCategories = [
       "Apollo Federation",
       "REST APIs",
       "Microservices",
+      "Amazon API Gateway",
     ],
   },
   {
@@ -33,19 +34,32 @@ const skillCategories = [
   {
     title: "Cloud & DevOps",
     skills: [
+      "AWS",
+      "S3",
+      "EC2",
+      "CloudFront",
+      "Lambda",
+      "SNS",
+      "SQS",
       "Docker",
-      "Google Cloud",
       "CI/CD",
       "GitHub Actions",
+      "Nginx",
+      "Kafka",
+      "Event-Driven Architecture",
     ],
   },
   {
     title: "AI & Emerging Tech",
     skills: [
       "Ollama",
-      "Vector Embeddings",
+      "LangChain",
       "RAG",
+      "Vector Embeddings",
       "Semantic Search",
+      "LLM Integration",
+      "AI Agent Development",
+      "Prompt Engineering",
     ],
   },
 ];

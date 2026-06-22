@@ -11,7 +11,7 @@ const projects = [
             "Apollo Federation",
             "Redis",
             "PostgreSQL",
-            "GCP",
+            "Amazon API Gateway",
             "TypeScript",
         ],
     },

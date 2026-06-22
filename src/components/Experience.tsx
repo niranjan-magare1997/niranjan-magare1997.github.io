@@ -4,11 +4,10 @@ const experiences = [
     role: "Senior Software Engineer",
     duration: "May 2024 - Present",
     achievements: [
-      "Engineered multi-tenant ticketing platform supporting multiple entertainment brands.",
-      "Built federated GraphQL microservices using NestJS and Apollo Federation.",
-      "Improved booking API performance by 35–50% using Redis distributed caching.",
-      "Integrated Google Apigee, AEM CMS and downstream booking services.",
-      "Built local RAG system using Ollama, vector embeddings and semantic retrieval.",
+      "Engineered federated GraphQL multi-tenant ticketing platform (Qiddiya) supporting SEVEN, AQUARABIA, and SIXFLAGS brands.",
+      "Built NestJS microservices with Apollo Federation, integrated AEM CMS, IdP authentication and downstream services via Amazon API Gateway.",
+      "Improved high-traffic booking API performance by 35–50% using Redis distributed caching on Amazon EC2.",
+      "Built local RAG system using Ollama, vector embeddings and semantic retrieval. Received Extra Mile Award for AI innovation.",
     ],
   },
   {

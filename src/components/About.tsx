@@ -17,9 +17,9 @@ export default function About() {
 
         <p>
           My primary expertise lies in NestJS, TypeScript,
-          GraphQL Federation, PostgreSQL, Redis and Docker.
+          GraphQL Federation, PostgreSQL, Redis, Docker and AWS.
           I enjoy solving complex backend challenges involving
-          scalability, performance optimization and system design.
+          scalability, performance optimization, system design and cloud-native architectures.
         </p>
 
         <p>

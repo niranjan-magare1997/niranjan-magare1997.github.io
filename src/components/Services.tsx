@@ -8,13 +8,12 @@ const services = [
     title: "GraphQL Federation",
     description:
       "Building federated GraphQL platforms using Apollo Federation.",
-  }
-//   ,
-//   {
-//     title: "Cloud & DevOps",
-//     description:
-//       "Deploying containerized applications on AWS and Google Cloud.",
-//   },
+  },
+  {
+    title: "Cloud & DevOps",
+    description:
+      "Deploying containerized applications on AWS with EC2, Lambda, S3, and other cloud services.",
+  },
 ];
 
 export default function Services() {
