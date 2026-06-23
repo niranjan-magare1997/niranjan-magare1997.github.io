@@ -31,6 +31,7 @@ export default function Hero() {
             "Redis",
             "PostgreSQL",
             "Docker",
+            "AWS"
           ].map((tech) => (
             <span
               key={tech}
