@@ -20,7 +20,7 @@ export default function Hero() {
         <p className="text-lg text-slate-400 leading-8 max-w-3xl mx-auto">
           Designing scalable microservices, GraphQL federations,
           distributed systems and cloud-native platforms using
-          NestJS, TypeScript, PostgreSQL, Redis.
+          NestJS, TypeScript, PostgreSQL, Redis, AWS.
         </p>
 
         <div className="flex flex-wrap justify-center gap-3 mt-8">
