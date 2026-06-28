@@ -7,7 +7,7 @@ export default function Summary() {
 
       <div className="bg-slate-900 rounded-xl p-8">
         <p className="text-slate-300 text-lg leading-8">
-          Senior Software Engineer with 6.5+ years of experience
+          Senior Software Engineer with 6.7+ years of experience
           building distributed, high-performance systems using Node.js,
           NestJS, TypeScript, GraphQL, Apollo Federation, and Microservices.
           Improved API performance by 35–50% through Redis caching, federated
