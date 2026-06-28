@@ -1,4 +1,4 @@
-name: Deploy Vite site to Pages
+name: Deploy Portfolio site to Pages
 
 on:
   push:

@@ -18,10 +18,10 @@ function App() {
       <Metrics />
       <Summary />
       <About />
-      <Skills />
-      <AchievementGallery/>
       <Experience />
+      <Skills />
       <Projects />
+      <AchievementGallery />
       <Contact />
       <Footer />
     </>

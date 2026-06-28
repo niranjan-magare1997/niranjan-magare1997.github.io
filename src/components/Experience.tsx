@@ -35,55 +35,31 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section
-      id="experience"
-      className="py-32 px-6 max-w-6xl mx-auto"
-    >
-      <h2 className="text-4xl font-bold text-white mb-16">
-        Experience
-      </h2>
+    <section id="experience" className="mx-auto max-w-6xl px-6 py-32">
+      <div className="mb-12">
+        <p className="mb-2 text-sm font-semibold uppercase tracking-[0.3em] text-sky-400">
+          Journey
+        </p>
+        <h2 className="text-4xl font-bold text-white">Experience</h2>
+      </div>
 
-      <div className="relative border-l border-slate-700 ml-4">
-
+      <div className="relative ml-4 border-l border-slate-700">
         {experiences.map((exp, index) => (
-          <div
-            key={index}
-            className="mb-16 ml-10"
-          >
-            <div
-              className="
-                absolute
-                w-4
-                h-4
-                bg-blue-500
-                rounded-full
-                -left-2
-              "
-              style={{
-                top: `${index * 285}px`,
-              }}
-            />
+          <div key={index} className="mb-16 ml-8 md:ml-10">
+            <div className="absolute -left-[0.58rem] h-4 w-4 rounded-full border-4 border-slate-950 bg-sky-500 shadow-[0_0_20px_rgba(56,189,248,0.45)]" style={{ top: `${index * 300}px` }} />
 
-            <div className="bg-slate-900 p-6 rounded-xl">
-              <h3 className="text-2xl font-bold text-white">
-                {exp.company}
-              </h3>
+            <div className="rounded-2xl border border-slate-800/80 bg-gradient-to-br from-slate-900/80 to-slate-950/90 p-6 shadow-[0_0_50px_rgba(15,23,42,0.3)]">
+              <h3 className="text-2xl font-bold text-white">{exp.company}</h3>
 
-              <p className="text-blue-400 mt-1">
-                {exp.role}
-              </p>
+              <p className="mt-1 text-sky-400">{exp.role}</p>
 
-              <p className="text-slate-500 mt-1">
-                {exp.duration}
-              </p>
+              <p className="mt-1 text-sm text-slate-500">{exp.duration}</p>
 
-              <ul className="mt-4 space-y-2">
+              <ul className="mt-4 space-y-3">
                 {exp.achievements.map((item) => (
-                  <li
-                    key={item}
-                    className="text-slate-300"
-                  >
-                    • {item}
+                  <li key={item} className="flex gap-3 text-slate-300">
+                    <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-gradient-to-r from-sky-500 to-fuchsia-500" />
+                    <span>{item}</span>
                   </li>
                 ))}
               </ul>
