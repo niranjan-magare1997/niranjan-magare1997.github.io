@@ -19,7 +19,6 @@ Senior Backend Engineer with 6+ years of experience designing and developing sca
 * Redis
 * Docker
 * AWS
-* Google Cloud Platform (GCP)
 
 ---
 
