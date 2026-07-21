@@ -65,7 +65,7 @@ export default function Hero() {
         </h1>
 
         <h2 className="mb-6 text-xl text-slate-300 sm:text-2xl md:text-3xl">
-          Senior Backend Engineer | 6.7+ Years Experience
+          Senior Backend Engineer | 8+ Years Experience
         </h2>
 
         <p className="mx-auto max-w-3xl text-lg leading-8 text-slate-400">

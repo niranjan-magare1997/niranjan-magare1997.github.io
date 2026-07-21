@@ -8,7 +8,7 @@ export default function About() {
 
         <div className="space-y-6 text-lg leading-8 text-slate-300">
           <p>
-            I&apos;m a Senior Backend Engineer with 6.7+ years of experience
+            I&apos;m a Senior Backend Engineer with 6.8+ years of experience
             designing scalable distributed systems, microservices
             architectures and cloud-native applications.
           </p>

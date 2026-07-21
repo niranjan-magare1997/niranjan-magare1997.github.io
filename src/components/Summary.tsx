@@ -1,5 +1,5 @@
 const highlights = [
-  { title: "Experience", data:"6.7+ years engineering scalable distributed systems"},
+  { title: "Experience", data:"6.8+ years engineering scalable distributed systems"},
   { title: "Core Stack", data: "Specialized in Node.js, NestJS, TypeScript, GraphQL & Apollo Federation"},
   { title: "Performance", data: "Accelerated API performance through caching, optimization & async architectures"},
   { title: "Domain Impact", data: "Built enterprise platforms for Ticketing, SaaS, IoT & Smart Automation"},
