@@ -5,7 +5,7 @@ const achievements = [
     image: "/certificates/extra_mile.jpg",
   },
   {
-    title: "4x Employee of the Month (Latest)",
+    title: "4x Employee of the Month",
     issuer: "Globant",
     image: "/certificates/latest_pat_on_the_back.png",
   },

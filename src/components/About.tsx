@@ -8,34 +8,41 @@ export default function About() {
 
         <div className="space-y-6 text-lg leading-8 text-slate-300">
           <p>
-            I&apos;m a Senior Backend Engineer with 6.8+ years of experience
-            designing scalable distributed systems, microservices
-            architectures and cloud-native applications.
+            I&apos;m a Senior Full Stack Engineer with 7+ years of experience
+            designing scalable distributed systems, microservices, and
+            cloud-native applications across product and enterprise platforms.
           </p>
 
           <p>
-            My primary expertise lies in NestJS, TypeScript, GraphQL
-            Federation, PostgreSQL, Redis, Docker and AWS. I enjoy solving
-            complex backend challenges involving scalability, performance
-            optimization, system design and cloud-native architectures.
+            My core expertise spans Node.js, NestJS, TypeScript, GraphQL
+            Federation, PostgreSQL, Redis, Docker, and AWS. I enjoy solving
+            complex engineering problems involving system design, performance
+            optimization, event-driven architectures, and reliable API platforms.
           </p>
 
           <div className="grid gap-3 rounded-2xl border border-slate-800/70 bg-slate-900/70 p-5 text-slate-300 md:grid-cols-3">
             {[
-              "Multi-protocol IoT",
-              "Multi-tenant SaaS",
-              "AI & RAG Solutions",
+              "AWS Serverless & Automation",
+              "Ticketing, SaaS, IoT & Home Automation",
+              "AI, RAG & Integrations",
             ].map((item) => (
-              <div key={item} className="rounded-xl border border-slate-800 bg-slate-950/60 px-4 py-3 text-center text-sm font-medium text-slate-200">
+              <div
+                key={item}
+                className="rounded-xl border border-slate-800 bg-slate-950/60 px-4 py-3 text-center text-sm font-medium text-slate-200"
+              >
                 {item}
               </div>
             ))}
           </div>
 
           <p>
-            Currently, I work on enterprise-grade multi-tenant ticketing
-            platforms, building federated GraphQL services, distributed
-            caching solutions and integrations with cloud-based systems.
+            I have developed AWS-based automation platforms and enterprise
+            solutions using Lambda, SQS/SNS, DynamoDB, EventBridge, and
+            infrastructure as code. Currently, I work on a Slack approval
+            platform for EA (Metplore), building TypeScript/Node.js workflows
+            provisioned with AWS CDK. Previously, I contributed to federated
+            GraphQL ticketing systems, IoT/SaaS platforms, and RAG-based AI
+            solutions.
           </p>
         </div>
       </div>

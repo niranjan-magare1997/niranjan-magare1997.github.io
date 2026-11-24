@@ -1,6 +1,8 @@
 import {
   FaLinkedin,
   FaEnvelope,
+  FaPhoneAlt,
+  FaMapMarkerAlt,
 } from "react-icons/fa";
 
 export default function Contact() {
@@ -8,41 +10,106 @@ export default function Contact() {
     <section
       id="contact"
       className="
-        py-32
-        px-6
-        text-center
-        max-w-5xl
         mx-auto
+        max-w-5xl
+        px-6
+        py-32
+        text-center
       "
     >
-      <h2 className="text-4xl text-white font-bold mb-6">
-        Let's Connect
+      <h2 className="
+          mb-6
+          text-4xl
+          font-bold
+          text-white
+        "
+      >
+        Let&apos;s Connect
       </h2>
 
-      <p className="text-slate-400 mb-10">
-        Open to backend engineering,
-        platform engineering and cloud-native opportunities.
+      <p className="
+          mb-10
+          text-slate-400
+        "
+      >
+        Open to senior full stack, backend, platform engineering, and AWS
+        cloud-native opportunities.
       </p>
 
-      <div className="flex justify-center gap-6 text-3xl text-white">
+      <div className="
+          flex
+          flex-wrap
+          justify-center
+          gap-6
+          text-3xl
+          text-white
+        "
+      >
         <a
           href="mailto:niranjan.magare@gmail.com"
+          className="
+            transition
+            hover:text-sky-400
+          "
+          aria-label="Email Niranjan Magare"
         >
           <FaEnvelope />
         </a>
 
         <a
+          href="tel:+918149574425"
+          className="
+            transition
+            hover:text-sky-400
+          "
+          aria-label="Call Niranjan Magare"
+        >
+          <FaPhoneAlt />
+        </a>
+
+        <a
           href="https://linkedin.com/in/niranjanmagare"
           target="_blank"
-          className="text-white"
+          rel="noreferrer"
+          className="
+            transition
+            hover:text-sky-400
+          "
+          aria-label="LinkedIn profile"
         >
           <FaLinkedin />
         </a>
       </div>
-      <br/>
-      <p className="text-blue-400 font-medium mb-10 text-2xl">
-        niranjan.magare@gmail.com
-      </p>
+
+      <div className="
+          mt-8
+          space-y-2
+          text-lg
+          text-slate-300
+        "
+      >
+        <p className="
+            font-medium
+            text-blue-400
+          "
+        >
+          niranjan.magare@gmail.com
+        </p>
+
+        <p>+91 8149574425</p>
+
+        <p className="
+            flex
+            items-center
+            justify-center
+            gap-2
+            text-slate-400
+          "
+        >
+          <FaMapMarkerAlt className="text-sky-400" />
+          Hyderabad, India
+        </p>
+      </div>
     </section>
   );
 }

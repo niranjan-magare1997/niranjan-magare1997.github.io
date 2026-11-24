@@ -1,7 +1,16 @@
 import { useEffect, useState } from "react";
 import { FaLinkedin, FaDownload } from "react-icons/fa";
 
-const techStack = ["NestJS", "TypeScript", "GraphQL", "Redis", "PostgreSQL", "Docker", "AWS"];
+const techStack = [
+  "NestJS",
+  "TypeScript",
+  "GraphQL",
+  "AWS CDK",
+  "Lambda",
+  "PostgreSQL",
+  "Redis",
+  "Docker",
+];
 
 export default function Hero() {
   const [displayName, setDisplayName] = useState("");
@@ -53,7 +62,7 @@ export default function Hero() {
       <div className="relative max-w-4xl text-center">
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-sky-400/20 bg-sky-500/10 px-4 py-2 text-sm font-medium text-sky-300 shadow-[0_0_40px_rgba(56,189,248,0.15)]">
           <span className="h-2.5 w-2.5 animate-pulse rounded-full bg-sky-400" />
-          Available for Backend Engineering Opportunities
+          Building Scalable Backend & Cloud-Native Platforms
         </div>
 
         <h1 className="mb-4 text-5xl font-bold leading-tight sm:text-6xl md:text-7xl">
@@ -65,13 +74,13 @@ export default function Hero() {
         </h1>
 
         <h2 className="mb-6 text-xl text-slate-300 sm:text-2xl md:text-3xl">
-          Senior Backend Engineer | 8+ Years Experience
+          Senior Full Stack Engineer | 7+ Years Experience
         </h2>
 
         <p className="mx-auto max-w-3xl text-lg leading-8 text-slate-400">
           Designing scalable microservices, GraphQL federations, distributed
-          systems and cloud-native platforms using NestJS, TypeScript,
-          PostgreSQL, Redis, AWS.
+          systems, and AWS-native platforms using NestJS, TypeScript, Node.js,
+          PostgreSQL, Redis, and serverless architectures.
         </p>
 
         <div className="mt-8 flex flex-wrap justify-center gap-3">

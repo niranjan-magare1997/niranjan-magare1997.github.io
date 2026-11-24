@@ -1,10 +1,28 @@
 const highlights = [
-  { title: "Experience", data:"6.8+ years engineering scalable distributed systems"},
-  { title: "Core Stack", data: "Specialized in Node.js, NestJS, TypeScript, GraphQL & Apollo Federation"},
-  { title: "Performance", data: "Accelerated API performance through caching, optimization & async architectures"},
-  { title: "Domain Impact", data: "Built enterprise platforms for Ticketing, SaaS, IoT & Smart Automation"},
-  { title: "AI & LLM", data: "Developed AI applications using RAG, LLMs, Ollama & Vector Search"},
-  { title: "AI & LLM", data: "Driving architecture, performance, and engineering excellence"},
+  {
+    title: "Experience",
+    data: "7+ years building scalable distributed backend systems, microservices, and AWS cloud-native platforms.",
+  },
+  {
+    title: "Core Stack",
+    data: "Specialized in Node.js, NestJS, TypeScript, GraphQL, and Apollo Federation.",
+  },
+  {
+    title: "Cloud & Architecture",
+    data: "Hands-on with AWS CDK, Lambda, API Gateway, SNS/SQS, DynamoDB, EventBridge Scheduler, and Systems Manager.",
+  },
+  {
+    title: "Performance",
+    data: "Improved API performance by 35–50% through Redis caching, GraphQL optimization, and PostgreSQL data architecture.",
+  },
+  {
+    title: "Domain Impact",
+    data: "Delivered enterprise solutions across Ticketing, SaaS, IoT, and Home Automation domains.",
+  },
+  {
+    title: "AI & Innovation",
+    data: "Experience with AI/LLM integrations including RAG, vector embeddings, and semantic retrieval.",
+  },
 ];
 
 export default function Summary() {
@@ -21,7 +39,7 @@ export default function Summary() {
         <div className="grid gap-4 md:grid-cols-2">
           {highlights.map((item, index) => (
             <div
-              key={item.data}
+              key={item.title}
               className="rounded-2xl border border-slate-800/70 bg-slate-900/70 p-5 transition duration-300 hover:-translate-y-1 hover:border-sky-400/40"
             >
               <div className="mb-4 flex items-center gap-3">

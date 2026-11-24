@@ -1,18 +1,18 @@
 const services = [
   {
-    title: "Backend Architecture",
+    title: "Backend & API Architecture",
     description:
-      "Designing scalable microservices and distributed systems.",
+      "Designing scalable microservices, REST APIs, and GraphQL federation platforms with NestJS and Node.js.",
   },
   {
-    title: "GraphQL Federation",
+    title: "AWS Cloud-Native Solutions",
     description:
-      "Building federated GraphQL platforms using Apollo Federation.",
+      "Building event-driven and serverless systems using AWS CDK, Lambda, API Gateway, SNS/SQS, DynamoDB, and CloudWatch.",
   },
   {
-    title: "Cloud & DevOps",
+    title: "Performance & Platform Engineering",
     description:
-      "Deploying containerized applications on AWS with EC2, Lambda, S3, and other cloud services.",
+      "Improving reliability and throughput through caching, query optimization, CI/CD automation, and distributed system design.",
   },
 ];
 

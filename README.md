@@ -1,63 +1,52 @@
-# 🚀 Niranjan Magare - Portfolio Website
+# Niranjan Magare - Portfolio Website
 
-A modern developer portfolio built with React, TypeScript, Vite, and Tailwind CSS, showcasing my professional experience, technical skills, projects, certifications, and contact information.
+A modern developer portfolio built with React, TypeScript, Vite, and Tailwind CSS, showcasing my professional experience, technical skills, projects, achievements, and contact information.
 
-## 🌐 Live Website
+## Live Website
 
 **Portfolio:** https://niranjan-magare1997.github.io
 
-## 👨‍💻 About Me
+## About Me
 
-Senior Backend Engineer with 6+ years of experience designing and developing scalable distributed systems, microservices architectures, GraphQL APIs, and cloud-native applications.
+Senior Full Stack Engineer with 7+ years of experience designing and developing scalable distributed systems, microservices, GraphQL APIs, and AWS cloud-native applications.
 
 ### Core Expertise
 
-* NestJS
-* TypeScript
-* GraphQL & Apollo Federation
-* PostgreSQL
-* Redis
-* Docker
-* AWS
+- Node.js & NestJS
+- TypeScript
+- GraphQL & Apollo Federation
+- PostgreSQL & Redis
+- AWS (CDK, Lambda, API Gateway, SNS/SQS, DynamoDB, EventBridge Scheduler, Systems Manager)
+- Docker & CI/CD
 
----
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
-* React
-* TypeScript
-* Vite
-* Tailwind CSS
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
 
-### Development Tools
+### Development & Deployment
 
-* Git
-* GitHub
-* GitHub Actions
-* npm
+- Git & GitHub
+- GitHub Actions
+- npm
+- GitHub Pages
 
-### Deployment
+## Features
 
-* GitHub Pages
-* GitHub Actions CI/CD
+- Responsive, modern portfolio design
+- Professional experience timeline
+- Technical skills showcase
+- Featured projects section
+- Achievements & certifications gallery
+- Resume download
+- Contact information
+- Automated deployment with GitHub Actions
 
----
-
-## ✨ Features
-
-* Responsive portfolio design
-* Professional experience timeline
-* Technical skills showcase
-* Featured projects section
-* Resume download
-* Contact information
-* Automated deployment with GitHub Actions
-
----
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
 src/
@@ -65,11 +54,12 @@ src/
 │   ├── Navbar.tsx
 │   ├── Hero.tsx
 │   ├── Metrics.tsx
+│   ├── Summary.tsx
 │   ├── About.tsx
-│   ├── Skills.tsx
 │   ├── Experience.tsx
+│   ├── Skills.tsx
 │   ├── Projects.tsx
-│   ├── Certifications.tsx
+│   ├── AchievementGallery.tsx
 │   ├── Contact.tsx
 │   └── Footer.tsx
 │
@@ -77,9 +67,7 @@ src/
 └── main.tsx
 ```
 
----
-
-## 🚀 Running Locally
+## Running Locally
 
 Clone the repository:
 
@@ -111,13 +99,8 @@ Build for production:
 npm run build
 ```
 
----
+## Connect With Me
 
-## 📫 Connect With Me
-
-* LinkedIn: https://linkedin.com/in/niranjanmagare
-* GitHub: https://github.com/niranjan-magare1997
-
----
-
-⭐ If you like this project, feel free to explore the code and connect with me.
+- LinkedIn: https://linkedin.com/in/niranjanmagare
+- GitHub: https://github.com/niranjan-magare1997
+- Email: niranjan.magare@gmail.com
